@@ -1,0 +1,31 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    justify-content: center;
+    background-image: url(../assets/footer-background.png);
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    min-height: 70px;
+}
+.data-input{
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 7px;
+}
+.submit{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 7px;
+}

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 400px;
+    width: 500px;
+    padding: 2em;
+    justify-content: center;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    transform: translateY(20vh);
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
